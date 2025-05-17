@@ -369,7 +369,7 @@ function showResults() {
     if (username) {
         updateUserStats(username, currentSubject, score, timeTaken, mistakes);
     }
-
+    // This web based quiz app was created by AKIB UZ ZAMAN
     // Display results
     document.getElementById('scores').innerHTML = `
         <h3>📚 ${currentSubject.toUpperCase()} RESULTS</h3>
